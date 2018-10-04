@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateCourseDatabase", "UpdateCourseDatabase\UpdateCourseDatabase.csproj", "{FF0308DE-9B45-41E7-A44E-FEDC2DAC3BA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EC52A4AB-6044-4EAF-ABDF-10A7844439A7}"
+	ProjectSection(SolutionItems) = preProject
+		Courses.txt = Courses.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF0308DE-9B45-41E7-A44E-FEDC2DAC3BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0308DE-9B45-41E7-A44E-FEDC2DAC3BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0308DE-9B45-41E7-A44E-FEDC2DAC3BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0308DE-9B45-41E7-A44E-FEDC2DAC3BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7FA4F6E-4B87-48BC-A082-81FEB558B5A5}
+	EndGlobalSection
+EndGlobal
