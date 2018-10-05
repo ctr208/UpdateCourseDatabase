@@ -74,7 +74,7 @@ function windowOpen(window_url) {
 <td class="pldefault"><p class="rightaligntext" p="">
 </p><div class="staticheaders">
 Fall 2018<br />
-Oct 05, 2018 04:26 pm<br />
+Oct 05, 2018 07:55 pm<br />
 </div>
 </td>
 </tr>
@@ -40820,7 +40820,7 @@ In order to take CMR courses, due to its unique nature and audience, you should 
 <td class="dddefault">3.000</td>
 <td class="dddefault">Coastal Protected Areas Management</td>
 <td class="dddefault">W</td>
-<td class="dddefault">11:00 am-01:55 pm</td>
+<td class="dddefault">11:00 am-01:50 pm</td>
 <td class="dddefault">0</td>
 <td class="dddefault">0</td>
 <td class="dddefault">0</td>
@@ -41450,7 +41450,7 @@ In order to take CMR courses, due to its unique nature and audience, you should 
 <td class="dddefault">3.000</td>
 <td class="dddefault">Fundamentals of Applied Environmental Research</td>
 <td class="dddefault">W</td>
-<td class="dddefault">11:00 am-01:55 pm</td>
+<td class="dddefault">11:00 am-01:50 pm</td>
 <td class="dddefault">7</td>
 <td class="dddefault">0</td>
 <td class="dddefault">0</td>
@@ -59318,7 +59318,7 @@ If more information is desired about a listed course, students are encouraged to
 <td class="dddefault">0.000</td>
 <td class="dddefault">College Algebra Lab - Required lab component for hybrid MAT 111 sections that meet only one day per week. Lab attendance required a maximum 5 times per semester with optional additional attendance-instructor to announce specific dates on syllabus</td>
 <td class="dddefault">R</td>
-<td class="dddefault">06:30 pm-07:55 pm</td>
+<td class="dddefault">06:30 pm-07:50 pm</td>
 <td class="dddefault">1</td>
 <td class="dddefault">3</td>
 <td class="dddefault">0</td>

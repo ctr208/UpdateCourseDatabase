@@ -37,7 +37,7 @@ namespace UpdateCourseDatabase
         {
             //CONVERTING HTML TO DATATABLE
 
-
+            Console.WriteLine("Starting to Parse HTML");
             HtmlAgilityPack.HtmlDocument doc = new HtmlAgilityPack.HtmlDocument();
 
             string currentDirectory = Directory.GetCurrentDirectory();
@@ -150,6 +150,7 @@ namespace UpdateCourseDatabase
                 //   break;
                 //}
             }
+            Console.WriteLine("Finished Parsing HTML");
             Console.ReadLine();
 
         }
@@ -162,9 +163,12 @@ namespace UpdateCourseDatabase
 
             File.WriteAllText(filePath, "");
 
-            Console.WriteLine("Going to URL");
-            Console.ReadLine();
-            IWebDriver driver = new ChromeDriver(@"C:\Users\ctr20\Desktop\")
+            Console.WriteLine("Starting Selenium");
+
+
+            string driverPath = System.IO.Path.Combine(currentDirectory, "Drivers");
+
+            IWebDriver driver = new ChromeDriver(driverPath)
             {
                 Url = "https://seanet.uncw.edu/TEAL/twbkwbis.P_GenMenu?name=homepage"
                 
@@ -233,7 +237,7 @@ namespace UpdateCourseDatabase
 
             File.WriteAllText(filePath, html);
 
-            Console.WriteLine("Finished");
+            Console.WriteLine("Finished Selenium");
 
         }
     }
