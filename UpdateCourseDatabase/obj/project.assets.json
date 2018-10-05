@@ -5099,11 +5099,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ctr20\\Desktop\\School\\UNCW\\CSC 450\\UpdateDatabaseConsoleApp\\UpdateCourseDatabase\\UpdateCourseDatabase\\UpdateCourseDatabase.csproj",
+      "projectUniqueName": "C:\\Users\\ctr20\\Desktop\\UpdateCourseDatabase\\UpdateCourseDatabase\\UpdateCourseDatabase.csproj",
       "projectName": "UpdateCourseDatabase",
-      "projectPath": "C:\\Users\\ctr20\\Desktop\\School\\UNCW\\CSC 450\\UpdateDatabaseConsoleApp\\UpdateCourseDatabase\\UpdateCourseDatabase\\UpdateCourseDatabase.csproj",
+      "projectPath": "C:\\Users\\ctr20\\Desktop\\UpdateCourseDatabase\\UpdateCourseDatabase\\UpdateCourseDatabase.csproj",
       "packagesPath": "C:\\Users\\ctr20\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ctr20\\Desktop\\School\\UNCW\\CSC 450\\UpdateDatabaseConsoleApp\\UpdateCourseDatabase\\UpdateCourseDatabase\\obj\\",
+      "outputPath": "C:\\Users\\ctr20\\Desktop\\UpdateCourseDatabase\\UpdateCourseDatabase\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

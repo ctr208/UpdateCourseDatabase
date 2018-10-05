@@ -13,6 +13,7 @@ using OpenQA.Selenium.Support.UI;
 using OpenQA.Selenium.Firefox;
 using System.IO;
 using System.Threading;
+using System.Reflection;
 
 namespace UpdateCourseDatabase
 {
@@ -25,7 +26,7 @@ namespace UpdateCourseDatabase
             //Get HTML
             getHTML();
             //Format HTML
-            Thread.Sleep(30000);
+            //Thread.Sleep(30000);
             formatHTML();
             //Write to database
 
@@ -38,7 +39,11 @@ namespace UpdateCourseDatabase
 
 
             HtmlAgilityPack.HtmlDocument doc = new HtmlAgilityPack.HtmlDocument();
-            string htmlCode = System.IO.File.ReadAllText(@"C:\Users\ctr20\Desktop\School\UNCW\CSC 450\UpdateDatabaseConsoleApp\UpdateCourseDatabase\Courses.txt");
+
+            string currentDirectory = Directory.GetCurrentDirectory();
+            string filePath = System.IO.Path.Combine(currentDirectory, "Data", "Courses.txt");
+
+            string htmlCode = System.IO.File.ReadAllText(filePath);
 
             doc.LoadHtml(htmlCode);
 
@@ -53,7 +58,7 @@ namespace UpdateCourseDatabase
             {
                 row.Remove();
             }
-            //
+
 
 
 
@@ -98,8 +103,14 @@ namespace UpdateCourseDatabase
 
                 for (int col = 0; col <= table.Columns.Count - 1; col++)
                 {
-                    if ((col == 0) && (table.Rows[row][0].ToString() == "&nbsp;"))
-                    {
+
+
+
+                    //if ((col == 0) && (table.Rows[row][0].ToString() == " "))
+                    int n;
+                    bool isNumeric = int.TryParse(table.Rows[row][0].ToString(), out n);
+                    if ((col == 0) && !isNumeric)
+                        {
                         int currentRow = row;
 
                         //update previous record that conatinas the CRN
@@ -134,10 +145,10 @@ namespace UpdateCourseDatabase
                     Console.WriteLine(item);
                 }
   
-                if (count > 200)
-                {
-                    break;
-                }
+                //if (count > 500)
+                //{
+                //   break;
+                //}
             }
             Console.ReadLine();
 
@@ -146,11 +157,17 @@ namespace UpdateCourseDatabase
 
         private static void getHTML()
         {
-            File.WriteAllText(@"C:\Users\ctr20\Desktop\School\UNCW\CSC 450\UpdateDatabaseConsoleApp\UpdateCourseDatabase\Courses.txt", "");
+            string currentDirectory = Directory.GetCurrentDirectory();
+            string filePath = System.IO.Path.Combine(currentDirectory, "Data", "courses.txt");
 
+            File.WriteAllText(filePath, "");
+
+            Console.WriteLine("Going to URL");
+            Console.ReadLine();
             IWebDriver driver = new ChromeDriver(@"C:\Users\ctr20\Desktop\")
             {
                 Url = "https://seanet.uncw.edu/TEAL/twbkwbis.P_GenMenu?name=homepage"
+                
             };
 
             IWebElement link;
@@ -188,6 +205,8 @@ namespace UpdateCourseDatabase
                 dropDown2.SelectByText(str);
             }
 
+            //dropDown2.SelectByText("Chemistry"); use this for testing purposes
+
             IWebElement submitButton2;
 
             submitButton2 = driver.FindElement(By.TagName("form"));
@@ -210,7 +229,9 @@ namespace UpdateCourseDatabase
 
             //var line = "";
 
-            File.WriteAllText(@"C:\Users\ctr20\Desktop\School\UNCW\CSC 450\UpdateDatabaseConsoleApp\UpdateCourseDatabase\Courses.txt", html);
+            Thread.Sleep(5000);
+
+            File.WriteAllText(filePath, html);
 
             Console.WriteLine("Finished");
 

@@ -9,3 +9,14 @@ C:\Users\ctr20\Desktop\School\UNCW\CSC 450\UpdateDatabaseConsoleApp\UpdateCourse
 C:\Users\ctr20\Desktop\School\UNCW\CSC 450\UpdateDatabaseConsoleApp\UpdateCourseDatabase\UpdateCourseDatabase\obj\Debug\netcoreapp2.1\UpdateCourseDatabase.dll
 C:\Users\ctr20\Desktop\School\UNCW\CSC 450\UpdateDatabaseConsoleApp\UpdateCourseDatabase\UpdateCourseDatabase\obj\Debug\netcoreapp2.1\UpdateCourseDatabase.pdb
 C:\Users\ctr20\Desktop\School\UNCW\CSC 450\UpdateDatabaseConsoleApp\UpdateCourseDatabase\UpdateCourseDatabase\obj\Debug\netcoreapp2.1\UpdateCourseDatabase.csprojAssemblyReference.cache
+C:\Users\ctr20\Desktop\UpdateCourseDatabase\UpdateCourseDatabase\bin\Debug\netcoreapp2.1\UpdateCourseDatabase.deps.json
+C:\Users\ctr20\Desktop\UpdateCourseDatabase\UpdateCourseDatabase\bin\Debug\netcoreapp2.1\UpdateCourseDatabase.runtimeconfig.json
+C:\Users\ctr20\Desktop\UpdateCourseDatabase\UpdateCourseDatabase\bin\Debug\netcoreapp2.1\UpdateCourseDatabase.runtimeconfig.dev.json
+C:\Users\ctr20\Desktop\UpdateCourseDatabase\UpdateCourseDatabase\bin\Debug\netcoreapp2.1\UpdateCourseDatabase.dll
+C:\Users\ctr20\Desktop\UpdateCourseDatabase\UpdateCourseDatabase\bin\Debug\netcoreapp2.1\UpdateCourseDatabase.pdb
+C:\Users\ctr20\Desktop\UpdateCourseDatabase\UpdateCourseDatabase\obj\Debug\netcoreapp2.1\UpdateCourseDatabase.csprojAssemblyReference.cache
+C:\Users\ctr20\Desktop\UpdateCourseDatabase\UpdateCourseDatabase\obj\Debug\netcoreapp2.1\UpdateCourseDatabase.csproj.CoreCompileInputs.cache
+C:\Users\ctr20\Desktop\UpdateCourseDatabase\UpdateCourseDatabase\obj\Debug\netcoreapp2.1\UpdateCourseDatabase.AssemblyInfoInputs.cache
+C:\Users\ctr20\Desktop\UpdateCourseDatabase\UpdateCourseDatabase\obj\Debug\netcoreapp2.1\UpdateCourseDatabase.AssemblyInfo.cs
+C:\Users\ctr20\Desktop\UpdateCourseDatabase\UpdateCourseDatabase\obj\Debug\netcoreapp2.1\UpdateCourseDatabase.dll
+C:\Users\ctr20\Desktop\UpdateCourseDatabase\UpdateCourseDatabase\obj\Debug\netcoreapp2.1\UpdateCourseDatabase.pdb
